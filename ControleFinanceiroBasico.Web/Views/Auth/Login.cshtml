@@ -1,0 +1,57 @@
+@using Microsoft.AspNetCore.Identity
+@model ControleFinanceiroBasico.Web.Models.UsuarioLogin;
+
+<h1>Acessar</h1>
+
+@{
+    if (TempData["Erros"] is List<IdentityError> erros && erros.Any())
+    {
+        <div style="padding-top: 15px;"></div>
+
+
+        <div class="row g-3 mb-3">
+            <div class="col-sm-6">
+                <div class="alert alert-danger">
+                    <h3 id="msgRetorno" style="padding-top: 20px">Opa! Algo deu errado :(</h3>
+
+                    <ul>
+                        @{
+                            foreach (var erro in erros)
+                            {
+                                <li>@erro.Description</li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<form method="post" class="mb-5">
+    <div class="row g-3mb-3">
+        <div class="col-sm-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row g-3 mb-3">
+        <div class="col-sm-6">
+            <label class="form-label">Senha</label>
+            <input type="password" class="form-control" asp-for="Senha" />
+            <span asp-validation-for="Senha" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</form>
+
+<div class="row g-3">
+    <div class="col-sm-4 mb-4">
+        <p class="text-end">Ainda não possui uma conta?</p>
+    </div>
+    <div class="col-sm-2 mb-4">
+        <a asp-action="Registrar">registrar</a>
+    </div>
+</div>

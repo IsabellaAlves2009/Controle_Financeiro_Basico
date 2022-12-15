@@ -1,0 +1,40 @@
+@model ControleFinanceiroBasico.Core.Models.Despesa;
+
+<h1>Cadastro de Despesas</h1>
+
+<form asp-action="Cadastrar">
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label">Data</label>
+                <input type="date" class="form-control" asp-for="Data">
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label">Descrição</label>
+                <input type="text" class="form-control" asp-for="Descricao">
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label">Valor</label>
+                <input type="text" class="form-control" asp-for="Valor">
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-6">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+        <div class="col-6">
+            <a type="button" class="btn btn-default" asp-action="Index">
+                << Voltar</a>
+        </div>
+    </div>
+</form>

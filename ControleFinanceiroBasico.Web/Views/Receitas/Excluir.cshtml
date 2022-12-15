@@ -1,0 +1,26 @@
+@model ControleFinanceiroBasico.Core.Models.Receita;
+
+<h1 class="text-danger">Modo Exclusão</h1>
+<h3 class="text-danger mb-5">Cuidado! Esta ação é permanente.</h3>
+
+
+<div class="row mb-5">
+    <div class="col-12">
+        Deseja realmente excluir a receita: <strong>"@Model.Descricao"</strong> ?
+    </div>
+</div>
+
+<form asp-action="Excluir">
+    <input type="hidden" class="form-control" asp-for="Id">
+    
+    <div class="row g-3">
+        <div class="col-6">
+            <button type="submit" class="btn btn-danger">Excluir</button>
+        </div>
+        <div class="col-6">
+            <a type="button" class="btn btn-outline-secondary" asp-action="Index">
+                Me tira daqui!
+            </a>
+        </div>
+    </div>
+</form>

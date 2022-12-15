@@ -1,0 +1,20 @@
+@inject UsuarioLogado usuario;
+
+@if (usuario.EstaAutenticado())
+{
+    <li class="nav-item">
+        <span class="nav-link text-dark">@usuario.Nome</span>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout">Sair</a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Login">Entrar</a>
+    </li>
+        <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Registrar">Registrar</a>
+    </li>
+}

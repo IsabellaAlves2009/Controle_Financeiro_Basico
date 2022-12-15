@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ControleFinanceiroBasico.Web
+build_property.RootNamespace = ControleFinanceiroBasico.Web
+build_property.ProjectDir = /home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Auth/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Despesas/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzcGVzYXMvQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Despesas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzcGVzYXMvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Despesas/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzcGVzYXMvRXhjbHVpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Despesas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzcGVzYXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Receitas/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVjZWl0YXMvQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Receitas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVjZWl0YXMvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Receitas/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVjZWl0YXMvRXhjbHVpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Receitas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVjZWl0YXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/isabella/projetos-estudos-antigos/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pks0mo7uz8

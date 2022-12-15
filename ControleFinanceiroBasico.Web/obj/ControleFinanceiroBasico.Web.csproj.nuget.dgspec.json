@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/ControleFinanceiroBasico.Web.csproj": {}
+  },
+  "projects": {
+    "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/ControleFinanceiroBasico.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/ControleFinanceiroBasico.Core.csproj",
+        "projectName": "ControleFinanceiroBasico.Core",
+        "projectPath": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/ControleFinanceiroBasico.Core.csproj",
+        "packagesPath": "/home/isabella/.nuget/packages/",
+        "outputPath": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isabella/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/ControleFinanceiroBasico.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/ControleFinanceiroBasico.Web.csproj",
+        "projectName": "ControleFinanceiroBasico.Web",
+        "projectPath": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/ControleFinanceiroBasico.Web.csproj",
+        "packagesPath": "/home/isabella/.nuget/packages/",
+        "outputPath": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isabella/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/ControleFinanceiroBasico.Core.csproj": {
+                "projectPath": "/home/isabella/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.6.0/ControleFinanceiroBasico.Core/ControleFinanceiroBasico.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

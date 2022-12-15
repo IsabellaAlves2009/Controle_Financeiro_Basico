@@ -1,0 +1,5 @@
+/home/leandro/workspace/net6/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.0.0/ControleFinanceiroBasico.Dao/obj/Debug/net6.0/ControleFinanceiroBasico.Dao.csproj.AssemblyReference.cache
+/home/leandro/workspace/net6/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.0.0/ControleFinanceiroBasico.Dao/obj/Debug/net6.0/ControleFinanceiroBasico.Dao.GeneratedMSBuildEditorConfig.editorconfig
+/home/leandro/workspace/net6/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.0.0/ControleFinanceiroBasico.Dao/obj/Debug/net6.0/ControleFinanceiroBasico.Dao.AssemblyInfoInputs.cache
+/home/leandro/workspace/net6/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.0.0/ControleFinanceiroBasico.Dao/obj/Debug/net6.0/ControleFinanceiroBasico.Dao.AssemblyInfo.cs
+/home/leandro/workspace/net6/ControleFinacneiroBasico/ControleFinanceiroBasico-v3.0.0/ControleFinanceiroBasico.Dao/obj/Debug/net6.0/ControleFinanceiroBasico.Dao.csproj.CoreCompileInputs.cache
